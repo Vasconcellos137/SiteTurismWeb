@@ -7,3 +7,5 @@ Itens Obrigatórios que o site deve ter:
 - Carousel, 
 - buttons,
 - listgroup.
+
+Framework -> Bootstrap
