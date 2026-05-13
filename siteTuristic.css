@@ -65,7 +65,7 @@ h2 {
 
 .card img {
     height: 200px;
-    object-fit: cover;
+    object-fit: cover; /*Faz imagem preencher espaço sem deformar*/
 }
 
 .card-title {
@@ -85,13 +85,12 @@ h2 {
 
 .carousel img {
     height: 500px;
-    /* object-fit: cover; */
     border-radius: 15px;
 }
 
 /* LIST GROUP */
 
-.list-group {
+.list-group { 
     margin-top: 30px;
 }
 
@@ -106,7 +105,7 @@ h2 {
 }
 
 .list-group-item:hover {
-    transform: scale(1.02);
+    transform: scale(1.02); /*Aumenta levemente o item*/
 }
 
 /* ESPAÇAMENTOS */
@@ -117,7 +116,7 @@ h2 {
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*Aplica estilos para telas menores que 768px*/
 
     .carousel img {
         height: 250px;
